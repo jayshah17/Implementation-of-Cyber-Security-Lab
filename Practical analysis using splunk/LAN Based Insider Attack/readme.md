@@ -1,8 +1,8 @@
-## Lan Based Insider Attack
+# Lan Based Insider Attack
 
 Making use of Ettercap/arpspoof tool to perform ARP Cache Poisoning based attacks in a LAN environment:
 
-### 1. Password Stealing using ARP Cache Poisoning attacks
+## 1. Password Stealing using ARP Cache Poisoning attacks
 
 High-Level Summary
 
@@ -62,6 +62,11 @@ In Victim Side, Open an http web page which will be in unencrypted format
 If victim enters username and password in http web page so attacker will be able to detect the username and password.
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/0e4df768-923d-41bd-98da-950f193e6ca0)
+
+### Logs of Splunk Collector 
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/d17a29a6-3bb0-4bc7-9324-45deaef9ebb6)
+
 
 Report – House Cleaning
 
