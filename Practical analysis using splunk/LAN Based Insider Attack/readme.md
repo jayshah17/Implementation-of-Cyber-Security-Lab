@@ -55,9 +55,7 @@ Start Arp Cache Poisoning
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/661e456c-e17c-47e5-aa33-f937bf2f9701)
 
-In Victime Side
-
-Open an http web page which will be in unencrypted format 
+In Victim Side, Open an http web page which will be in unencrypted format 
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/6a8fb5a0-f231-41e8-96e5-6d0155b3dbe7)
 
