@@ -142,3 +142,4 @@ All the nse scripts are loacated in `/usr/share/nmap/scripts/`
 
 To perform a vulnerability scan in NMAP NSE, We have command - `nmap -sV --script=vuln 10.0.2.9`
 
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/bb81974e-859b-4f3f-8b69-ca0ce65c5f63)
