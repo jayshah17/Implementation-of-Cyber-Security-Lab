@@ -25,15 +25,15 @@ A firewall is a network security device that monitors and controls incoming and 
 Firewalls can be implemented as software, hardware, or a combination of both. They work by examining the packets of network traffic and comparing them against the set of rules or policies defined by the administrator.
 If a packet matches a rule, it is allowed to pass through the firewall. If it doesn't match any rule, it is either dropped or sent to a different location for further analysis
 Types
-Packet filtering firewall
-Stateful inspection firewall
-Application-level gateway firewall
-Next-generation firewall
-Host-based firewall
+- Packet filtering firewall
+- Stateful inspection firewall
+- Application-level gateway firewall
+- Next-generation firewall
+- Host-based firewall
 nmap command to identify a firewall -
 To identify a firewall we can use the Standard SYN Scan
 
-Reason : The RST packet makes closed ports easy for Nmap to recognize. Filtering devices such as firewalls, on the other hand, tend to drop packets destined for disallowed ports. In some cases they send ICMP error messages (usually port unreachable) instead. Because dropped packets and ICMP errors are easily distinguishable > from RST packets, Nmap can reliably detect filtered TCP ports from open or closed ones, and it does so automatically.
+>> Reason : The RST packet makes closed ports easy for Nmap to recognize. Filtering devices such as firewalls, on the other hand, tend to drop packets destined for disallowed ports. In some cases they send ICMP error messages (usually port unreachable) instead. Because dropped packets and ICMP errors are easily distinguishable > from RST packets, Nmap can reliably detect filtered TCP ports from open or closed ones, and it does so automatically.
 
 Command - nmap -sS -p- <ip>
 
