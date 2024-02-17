@@ -76,16 +76,44 @@ Once we activate the plugin , the target(attacker) ip sends hundreads of packets
 
 ## 3. Perform DNS Spoofing attack using ARP Cache Poisoning attacks
 
+### How does DNS Spoofing 
+
+>> When the DNS spoofing plugin is enabled in ettercap, it intercepts DNS queries from the victim and responds with a fake DNS response that contains a fake IP address. This fake IP address is the IP address of the attacker's machine or any other IP address that the attacker wants the victim to visit. The ettercap DNS spoofing plugin listens for DNS requests made by the victim. Once a request is captured, the plugin sends a fake DNS response to the victim's machine, which contains the IP address of the attacker's machine or any other IP address specified by the attacker.
+
+This manipulation of the DNS response allows the attacker to redirect the victim's traffic to any website or web page of their choice. Once the victim's traffic is redirected to the attacker's website, the attacker can then perform various malicious activities
+
+As like the previous attack,we have to repeat steps
+
+- Scan for hosts
+- Add hosts as target (only the target ip & not the gateway ip)
+- Start arp poisoning the victim.
+- Then search for dns_attack plugin and start it
+
+Open the ettercap config file which is located at /etc/ettercap/etter.conf
+
+Change the following values to 0
+
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/b5d337eb-911d-4a2a-8bd7-a9a9e54bbd34)
+
+Uncomment the following lines in the same file
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/90514ca5-600a-4bf8-862c-a253f9868d1e)
 
+Open the etter.dns file which is located at `/etc/ettercap/etter.dns`.
+
+>> etter.dns file is the hosts file and is responsible for redirecting specific DNS requests. Basically, if the target enters facebook.com they will be redirected to Facebook's website, but this file can change
+
+Add line www.amrita.edu A 192.168.80.164  where 192.168.80.164 is the attacker ip
+
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/d9e3f3f4-c1d8-4ec2-b0a8-d77b68bd3bb3)
 
-Create a login html file
-and start apache service
+In a real life scenario, an attacker would use this attack to redirect traffic to their own machine for data sniffing. This is done by starting an Apache server on the Kali machine and changing the default homepage to a clone of, let's say facebook.com so that when the victim visits those websites, after being redirected to the attacker machine they will see the clones of the aforementioned sites. This will probably fool the unsuspecting user into entering their credentials where they really shouldn't.
+
+We setup a fake login page . Start the apache2 server
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/0f03d88f-8579-4745-b9bc-01b8ba6f9f86)
+
+Activate the `dns_spoof` plugin by going to plugins -> manage plugins
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/7384c91a-2fb1-41a7-8782-d841f38d7b09)
 
@@ -93,12 +121,14 @@ and start apache service
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/e7275ef6-6de8-4096-8ffc-1a3114d103a6)
 
 
-In Victim, On by specifying www.amrita.edu we get our debian page 
+In Victim, On by specifying www.amrita.edu we get our debian page.
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/4590da38-2925-4e68-b042-d3df0c8ab998)
 
-our login page also we can open
+Our login page also we can open
+ 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/7081e689-7b89-4f5a-9285-db6969a0fd50)
 
 Ettercap shows 
+ 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/a75bfe87-f97d-4714-aa67-25f28384c737)
