@@ -36,7 +36,7 @@ Wi-Fi, short for Wireless Fidelity, is a technology that enables electronic devi
 
 These are just a few examples of the types of attacks that can target Wi-Fi networks. Implementing strong encryption, regularly updating firmware, and using strong, unique passwords are essential practices to mitigate these threats.
 
-### Coonect Wireless Adapter
+### Connect Wireless Adapter
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/9786d970-9b47-4471-aed0-0f40eeffbac7)
 
