@@ -35,8 +35,11 @@ Dns Spoof Host
 ## 2. Use Splunk to answer the following questions:
   ### a. Capture these above attacks using Splunk in an active or passive method. (10 Marks)
 
+Passive Method
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/96ff1ae2-98f7-4f65-97ad-956fbe7bd15e)
 
 
+![Uploading image.png…]()
 
 
 
