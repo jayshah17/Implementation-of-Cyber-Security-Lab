@@ -7,6 +7,9 @@
 
 
 
+
+
+
   ### b. Use ICMP Packets to perform only DDOS attacks over the victim. 
 
 
@@ -68,13 +71,25 @@ we have to crack password by using wordlist in `aircrack-ng tool`
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/c8293b2b-a9aa-4c5c-99cf-81480c740b10)
 
-
-
-
-
+Password Cracked: `Cisco123Cisco123`
 
   ### b. Analyse the decrypted traffic using tools to identify the malicious/suspicious activity recorded in the WLAN. [4 Marks]
 
+Now we have to open Wireshark and add our password in keys to decypt the pcap file 
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/c34c9bfd-61b1-4177-9ff1-c22dbeeb61e7)
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/dd34ea48-917f-4a50-a1fa-146c9933d8a7)
+
+On Analyzing the pcap file, we can get to know that Voip call is made throgh Skinny Protocol and all details regarding the call are available in this pcap 
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/4c571bf1-337d-49b6-8d31-4770dfc3dce3)
+
+First Connection is established with Skinny Protocol then Communication is being performed RTP and at last connection is disabled
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/0a700cf5-0b81-4e30-985e-a38360ca6b5f)
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/2d425d52-d0ad-4e94-b561-9760d858cf32)
 
 
 
