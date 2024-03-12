@@ -5,8 +5,21 @@
 
 
 
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/7aa715a7-f962-44f0-97cc-f385e310c1a2)
 
+Victim: 
 
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/6bc5f582-d90e-4437-89a5-d24a3c943829)
+
+Arp Spoof Started
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/20502860-fc28-4804-b4df-5574b945e6aa)
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/62716f88-d63d-40fe-afed-46705ce83537)
+
+Dns Spoof Host
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/8986bd4a-d11a-48e5-bcae-b1766c17cf90)
 
 
 
