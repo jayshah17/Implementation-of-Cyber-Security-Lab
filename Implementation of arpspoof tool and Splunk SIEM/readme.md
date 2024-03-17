@@ -56,7 +56,8 @@ DDOS Attack is performed
 ## 2. Use Splunk to answer the following questions:
   ### a. Capture these above attacks using Splunk in an active or passive method. (10 Marks)
 
-Passive Method
+Passive Method for analysing the event
+
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/96ff1ae2-98f7-4f65-97ad-956fbe7bd15e)
 
   
@@ -80,10 +81,22 @@ For DNS Spoofing Attack IOC can be :
   
   ### c. Explore and create an Alert for similar attacks in the Future. (5 Marks)
 
+- we should create an alert to monitor such type of events when encountered in future.
 
+  
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/d6a72533-bd5a-43ed-a1a0-6a95463274b6)
 
+After Creating an alert 
 
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/3b78d826-30f9-4b13-bcf3-16c310e404e4)
 
+  - first selecting due to which incident the attack is generated
+  - Select Monitoring tool
+  - Create alerts.
+  - Test the alerts
+  - Fine- Tuning the alert
+  - Document the alert rules which are craftes
+  - Continuous Improvement.
 
 
 ## 3. Use the given PCAP file to analyse and answer the following questions:
