@@ -21,6 +21,8 @@ Dns Spoof Host
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/8986bd4a-d11a-48e5-bcae-b1766c17cf90)
 
+![WhatsApp Image 2024-03-17 at 10 45 34_8dd998e1](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/7fc8c409-f7fa-4623-8fb7-a0e62325bed1)
+
 
 
   ### b. Use ICMP Packets to perform only DDOS attacks over the victim. 
@@ -57,29 +59,31 @@ DDOS Attack is performed
 Passive Method
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/96ff1ae2-98f7-4f65-97ad-956fbe7bd15e)
 
-
-![Uploading image.png…]()
-
-
-
-
-
-
-
-
   
   ### b. Identify and Analyse the Indicator of Compromise for the attack. (5 Marks)
 
+- An Indicator of Compromise (IoC) is any piece of evidence or anomaly that suggests a network intrusion or security breach has occurred. IoCs can take various forms, including:
+    - File Hashes: Hash values of known malicious files or executables found on systems.
+    - IP Addresses: IP addresses associated with malicious activity, such as command and control servers or sources of malicious traffic.
+    - Domain Names: Domain names linked to malicious activities, phishing campaigns, or hosting malicious content.
+    - URLs: URLs used in phishing emails or websites hosting exploit kits or malware payloads.
+    - File Paths: Unusual file paths or directories commonly used by malware for persistence or data exfiltration.
+    - Network Traffic Patterns: Anomalous network traffic, such as unusual spikes in DNS queries, connections to known malicious IP addresses, or unexpected outbound traffic.
+    - System Logs: Suspicious entries in system logs, including failed login attempts, privilege escalations, or unusual system activities.
 
 
-
-
-
-
+For DNS Spoofing Attack IOC can be :
+  - DNS Log Analysis and DNS Traffic Analysis
+  - File Hash, Suspicious IP Address and anamoulous Login Activity
 
 
   
   ### c. Explore and create an Alert for similar attacks in the Future. (5 Marks)
+
+
+
+
+
 
 
 ## 3. Use the given PCAP file to analyse and answer the following questions:
