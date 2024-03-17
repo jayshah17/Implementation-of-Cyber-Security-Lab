@@ -1,4 +1,6 @@
-# Implementation of Arpspoof tool and Splunk SIEM Tool with cracking password
+# Midterm Revision
+
+## Implementation of Arpspoof tool and Splunk SIEM Tool with cracking passwor
 
 ## Use the arpspoof tool to perform the following attacks [10 Marks] 
   ### a. Use ARP packets to perform the DNS spoofing attack. Whatever the website the user types, it should navigate to http://testphp.vulnweb.com/login.php as a part of the attack.
@@ -20,8 +22,6 @@ Arp Spoof Started
 Dns Spoof Host
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/8986bd4a-d11a-48e5-bcae-b1766c17cf90)
-
-![WhatsApp Image 2024-03-17 at 10 45 34_8dd998e1](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/7fc8c409-f7fa-4623-8fb7-a0e62325bed1)
 
 
 
@@ -48,6 +48,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+![WhatsApp Image 2024-03-17 at 10 45 34_8dd998e1](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/7fc8c409-f7fa-4623-8fb7-a0e62325bed1)
+
 
 DDOS Attack is performed
 
