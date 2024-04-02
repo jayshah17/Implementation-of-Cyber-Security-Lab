@@ -1,6 +1,6 @@
 # Wazuh - Open Source Security Platform
 
-We have installed an .OVA file which contains 
+We have installed an .OVA file which contains wazuh server
 
 ## Installation of Wazuh - Server
 
