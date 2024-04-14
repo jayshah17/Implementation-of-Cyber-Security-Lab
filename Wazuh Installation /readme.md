@@ -116,7 +116,7 @@ Running vulnerability scans in Wazuh requires enabling the Vulnerability Detecto
 Change this conf with respect to the above screenshot:
 This conf is present in both agent and server location in agent.conf
 
-Windows Agent
+### Windows Agent
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/74a4302c-8e14-4888-b211-8d6828f62dbc)
 
@@ -124,5 +124,32 @@ Windows Agent
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/5dbbe90e-c374-4a5f-9828-5be1fa24f0e2)
 
+As we open Wazuh server, it will show all the vulnerabilities after scanning the os 
 
+Here is the graphical representation of all vulnerabilities and no. of vulnerabilities in terms of severity
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/ff5a7c1e-4b9b-464f-96f4-759cf0d53cbd)
+
+If we click the critical vulnerability, we will able to analyse
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/6b47b86a-c72f-4a4d-af4e-a0916748a2bf)
+
+We have analysed Windows 11 also which is having 
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/446cf384-a328-45bb-8d2d-ce94c2d9f661)
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/8b6ac49a-cd00-4f22-a511-23052ca68b5e)
+
+CVE (common vulnerability and exposure) doesn’t only include the malicious software, the outdated software which are present in the system is also considered as a CVE
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/6a5ef89f-f1e9-4a89-89eb-f971a51af028)
+
+
+We can navigate to Mitre Attack
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/fffb5988-8b96-4c71-9edd-a406f9eb01fc)
+
+We can view Security Events as performing any authentication failure 
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/6be6a69e-e507-49ef-b077-8f4559a882f1)
 
