@@ -1,4 +1,4 @@
-# Detecting XZ Utils Vulnerability 
+# Detecting Vulnerabilities
 
 ### Make wazuh server configuration
 ```
@@ -99,17 +99,30 @@ Add Vulnerability Detector Code in config file
   </vulnerability-detector>
 ```
 
-
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/59992d3b-22d3-4c07-956e-e6c6cdfcced3)
+In our wazuh-server we have to make changes in ossec.conf file
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/7358b111-1d35-49bb-9ff7-a6c9d0e41eda)
 
-
-Updating Vulnerability Database to our wazuh-server like National Vulnerability Database
+It will start downloading all the Vulnerability databases of each and every OS
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/b5457dc8-d01b-4625-ae5d-f1fe257712f9)
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/77b9b3f7-bc51-42a9-ad53-1d0f8a1f131e)
+### Vulnerability Configuration for agents
 
-![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/4c4a05b7-8e74-4831-9a01-e8f5162aa0d8)
+Running vulnerability scans in Wazuh requires enabling the Vulnerability Detector module and setting the configuration for the scan.
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/a113ce9e-e8e3-4ad0-8a93-33b7666d7a5b)
+
+Change this conf with respect to the above screenshot:
+This conf is present in both agent and server location in agent.conf
+
+Windows Agent
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/74a4302c-8e14-4888-b211-8d6828f62dbc)
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/9b79cd45-0327-4714-9b76-b6feebdc9bed)
+
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/5dbbe90e-c374-4a5f-9828-5be1fa24f0e2)
+
+
 
