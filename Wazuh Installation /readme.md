@@ -1,4 +1,4 @@
-# Detecting Vulnerabilities
+# Threat Analysis By Wazuh Open Source 
 
 ### Make wazuh server configuration
 ```
