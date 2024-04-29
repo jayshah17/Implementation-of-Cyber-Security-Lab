@@ -89,6 +89,6 @@ We can view in Wireshark that pcap file
 
 ![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/da932e86-fc54-4af2-995e-2d576d5e72bc)
 
-![Uploading image.png…]()
+![image](https://github.com/jayshah17/Implementation-of-Cyber-Security-Lab/assets/76842630/1387fd57-0f62-48c5-bb03-482de465eb10)
 
 
